@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(196, 138, 251);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 1rem;
+    color:rgb(255, 255, 255);
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+main {
+    display: grid;
+    align-items: left;
+    justify-items: left;
+    margin-left: 40%;
+    margin-top: 5rem;
+}
+
+button {
+    margin-top: 2rem;
+    width: 100px;
+    color: white;
+    background-color: rgb(147, 0, 137);
+    border: none;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+#urifield {
+    width: 18.5rem;
+} 
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+fieldset {
+    padding: 1rem;
+    width: 18rem;
+    margin: 1rem;
+}
+
+.messagearea, pre {
+    text-align: left;
+}

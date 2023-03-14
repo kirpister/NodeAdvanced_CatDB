@@ -1,0 +1,27 @@
+{
+    "host": "127.0.0.1",
+    "port": 3306,
+    "admin": "admin",
+    "user": "charlie",
+    "userpassword": "iip2uElG",
+    "dropUser": true,
+    "debug": true,
+    "database": "catDB",
+    "allowPublicKeyRetrieval": true,
+    "tables": [
+        {
+            "tableName": "cat",
+            "columns": [
+                "number integer not null primary key",
+                "name varchar(8) not null",
+                "yearofbirth integer not null",
+                "weight integer not null",
+                "breed varchar(19) not null"
+            ],
+            "data": [
+                [1, "Boba", 2011, 6, "best boi"],
+                [2, "Kookis", 2010, 4, "cornish rex"]
+            ]
+        }
+    ]
+}
